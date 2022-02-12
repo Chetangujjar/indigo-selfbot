@@ -9,8 +9,8 @@ init()
 
 try:
     config = json.load(open('config.json'))
-    accountToken = config.get('Discord Token')
-    prefix = config.get('Command Prefix')
+    accountToken = config.get('ODc1NDAwNzk2MTQ4MjI0MDYw.YgUOyw.f3O7xMIf5RoBA1vVw6YU6bvEgl0')
+    prefix = config.get('+')
     embedColor = int(config.get('Embed Color').replace('#', '0x'), 0)
     nitroSniper = config.get('Nitro Sniper')
 except Exception as e:
